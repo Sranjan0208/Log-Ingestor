@@ -1,0 +1,3 @@
+curl "http://localhost:3001/logs?level=error"
+curl "http://localhost:3001/logs?message=Failed%20to%20connect"
+curl "http://localhost:3001/logs?resourceId=server-1234"

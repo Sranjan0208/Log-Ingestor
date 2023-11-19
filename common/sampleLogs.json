@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "level": "error",
+    "message": "Failed to connect",
+    "resourceId": "server-1234",
+    "timestamp": "2023-09-10T12:34:56Z",
+    "traceId": "123456",
+    "spanId": "789012",
+    "commit": "a1b2c3",
+    "metadata": {
+      "parentResourceId": "parent-server"
+    }
+  },
+  {
+    "id": 2,
+    "level": "info",
+    "message": "Connection established",
+    "resourceId": "server-5678",
+    "timestamp": "2023-09-11T08:45:12Z",
+    "traceId": "789012",
+    "spanId": "345678",
+    "commit": "x9y8z7",
+    "metadata": {
+      "parentResourceId": "parent-server"
+    }
+  }
+]
